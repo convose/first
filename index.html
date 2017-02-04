@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>GIT test 2</title>
+        <title>Teaching progress</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
@@ -51,5 +51,47 @@
             <label><input type="submit" id="registration-button" name="Подписаться на рассылку" value="Зарегистрироваться"></label>            
             
         </form>
+		
+		<h1>Профиль</h1>
+
+        <form action="https://echo.htmlacademy.ru" method="post" enctype="multipart/form-data">
+            <label>Ваш пол:
+                <input type="radio" name="gender" value="Мужской"> Мужской
+                <input type="radio" checked name="gender" value="Женский"> Женский
+            </label>
+            <br>
+            
+            <label>Месяц и год рождения:<br>
+            <select name="month">
+              <option value="January">Январь</option>
+              <option value="February">Февраль</option>
+            </select>
+            
+            <select name="month">
+              <option value="1990">1990</option>
+              <option value="1989">1989</option>
+            </select>
+            </label>
+            <br>
+            
+            <label>Знакомые технологии:<br>
+            <select  multiple name="tech">
+              <option value="HTML">HTML</option>
+              <option selected value="CSS">CSS</option>
+              <option value="JavaSript">JavaScript</option>
+              <option value="Node.js">Node.js</option>
+            </select>
+            </label>
+            <br>
+            
+            <label>Фото:
+            <input type="file" name="file">
+            </label>
+            <br>   
+            
+            <input type="submit" name="button" value="Сохранить">
+            
+        </form>
+		
     </body>
 </html>
